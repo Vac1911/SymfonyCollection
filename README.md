@@ -1,7 +1,9 @@
 # Collections
 
 ## Introduction
-The Collection class provides a fluent, convenient wrapper for working with arrays of data. Many of the collection methods are based on work of _Taylor Otwell <taylor@laravel.com>_. This class was authored by _Andrew Mellor <andrew@quasars.com>_
+The Collection class provides a fluent, convenient wrapper for working with arrays of data. Design is focused on the principles of: chainability, fluent interfacing, and immutablity. This class is fully compatability with doctrine/symfony and has no outside dependencies so it can easily be used in any project.
+
+Many of the collection methods are based on work of _Taylor Otwell <taylor@laravel.com>_ and _Doctrine Project <https://www.doctrine-project.org/>_. This class was authored by _Andrew Mellor <andrew@quasars.com>_
 
 ## Methods
 ### all()
